@@ -59,13 +59,13 @@ body main section table caption{
 
 body main section table, th{
   border: 0.1em solid;
-  border-color: white;
+  border-color: black;
   color: black;
 }
 
 body main section table, td:first-child{
   border: 0.1em solid;
-  border-color: white;
+  border-color: black;
 }
 
 main video{
