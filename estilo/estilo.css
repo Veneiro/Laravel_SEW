@@ -55,12 +55,12 @@ body main section table{
 
 body main section table, th{
   border: 0.1em solid;
-  border-color: white;
+  border-color: black;
 }
 
 body main section table, td:first-child{
   border: 0.1em solid;
-  border-color: white;
+  border-color: black;
 }
 
 main video{
