@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+
+    <meta name ="author" content ="Mateo Rico Iglesias" />
+    <meta name ="description" content ="Formulario de Opinión" />
+    <meta name ="keywords" content ="Laravel, Framework, PHP" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>SEW.P1</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+</head>
+
+<body>
+    <header>
+    <h1>Framework Laravel</h1>
+    <p><a href="index.html">Home</a> -
+        <a href="multimedia.html">Multimedia</a> -
+        <a href="formulario.html">Opinión</a></p>
+    </header>
+    <nav>
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="index.html">¿Qué es Laravel?</a></li>
+            <li><a href="php.html">Laravel PHP</a></li>
+            <li><a href="table.html">Version History</a></li>
+            <li><a href="formulario.html">Formulario de Opinión</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Formulario de Opinión</h3>
+        <form>
+            <fieldset>
+                <legend>Tus datos de contacto</legend>
+                <p>
+                    <label for="input-nombre">Nombre</label>
+                    <input type="text" name="nombre" id="input-nombre">
+                </p>
+                <p>
+                    <label for="input-apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="input-apellidos">
+                </p>
+                <p>
+                    <label for="input-telephone">Telefono</label>
+                    <input type="tel" name="telephone" id="input-telephone">
+                </p>
+                <p>
+                    <label for="input-email">Email</label>
+                    <input type="email" name="email" id="input-email">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Valoración</legend>
+                <p><label> <input type=radio name=size> 1 </label>
+                <label> <input type=radio name=size> 2 </label>
+                <label> <input type=radio name=size> 3 </label>
+                <label> <input type=radio name=size> 4 </label>
+                <label> <input type=radio name=size> 5 </label></p>
+                <p>
+                    <label for="input-satisfecho">¿Estás satisfecho con la pagina?</label>
+                    <input type="checkbox" name="satisfecho" id="input-satisfecho">
+                </p>
+                    <fieldset>
+                        <legend>Déjanos tu opinión</legend>
+                        <label for="input-opinion"></label>
+                        <input type="text" name="opinion" id="input-opinion">
+                        <label for="input-enviarForm"></label>
+                        <input type="submit" name="enviarForm" id="input-enviarForm">
+                    </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

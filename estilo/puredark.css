@@ -1,0 +1,43 @@
+/****************************
+Mateo Rico Iglesias - UO277172
+Descripción de los estilos
+****************************/
+header{
+    font-size: 1em;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+header nav{
+    padding: 1em;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 3em;
+    border: 0.5em solid;
+}
+body main{
+    padding: 1em;
+}
+a{
+    color: red;
+}
+body main section table,th,td{
+    border: 0.1em solid;
+    border-color: white;
+    background-color: red;
+}
+main video{
+    width: 100%;
+    height: auto;
+}
+body footer img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+body footer{
+    padding: 1em;
+}
