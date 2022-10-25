@@ -13,6 +13,7 @@ header{
 }
 /*Especificidad 002*/
 header a{
+  background-color: red;
   color: black;
 }
 /*Especificidad 001*/
@@ -43,6 +44,7 @@ main video{
 }
 /*Especificidad 001*/
 a{
+  background-color: black;
   color: white;
 }
 a:hover{
@@ -51,21 +53,22 @@ a:hover{
 }
 body main section table{
   border: 0.1em solid;
-  border-color: white;
   background-color: red;
 }
 
 body main section table caption{
+  background-color: black;
   color: white;
 }
 
 body main section table, th{
   border: 0.1em solid;
+  background-color: red;
   border-color: black;
   color: black;
 }
 
-body main section table, td:first-child{
+body main section table, td{
   border: 0.1em solid;
   border-color: black;
 }
@@ -81,6 +84,7 @@ body footer img{
 }
 body footer{
   background-color: black;
+  color: white;
   border: 0.3em solid;
   border-color: red;
   padding: 1em;
