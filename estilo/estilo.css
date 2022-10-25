@@ -65,8 +65,12 @@ body footer img{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
-  height: auto;
+}
+@media (max-width: 600px){
+  body footer img{
+    width: 100%;
+    height: auto;
+  }
 }
 body footer{
   color: white;
